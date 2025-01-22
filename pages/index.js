@@ -1,7 +1,4 @@
-import React from 'react';
-import dynamic from 'next/dynamic';
-
-const LumberInventory = dynamic(() => import('../components/LumberInventory'), { ssr: false });
+import LumberInventory from '../components/LumberInventory'
 
 export default function Home() {
   return (
